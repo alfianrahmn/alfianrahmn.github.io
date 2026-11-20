@@ -1,19 +1,22 @@
 {
-  "name": "absolute-asteroid",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "alfianrahmn.github.io",
+  "private": true,
+  "version": "1.0.0",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "astro": "^3.2.3",
-    "dotenv": "^16.3.1"
+    "next": "16.4.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "vite": "^4.4.11"
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
   }
 }

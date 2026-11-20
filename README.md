@@ -1,14 +1,19 @@
-# alfianrahmn
+# alfianrahmn.github.io
 
-Personal website, focus on portofolio projects. Simple, Clean, and Fast. Made with **Astro**, feel free to fork.
+Personal portfolio for Alfian Rahman, rebuilt with Next.js and configured for static export to GitHub Pages.
 
-[https://alfianrahmn.github.io](https://alfianrahmn.github.io/)
+The `astrojs` branch preserves the previous Astro site. Development happens in `nextjs-redesign`; merge it into `master` when the Next.js site is approved.
 
-## 🧞 Commands
+## Local development
 
-All commands are run from the root of the project, from a terminal:
+```bash
+npm install
+npm run dev
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+Open `http://localhost:3000`. Validate the static GitHub Pages build with:
+
+```bash
+npm run lint
+npm run build
+```
