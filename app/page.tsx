@@ -32,7 +32,7 @@ export default function Home() {
       <div className="section-heading"><p className="eyebrow">Amdocs × MarineM learning path</p><h2>Two repositories, one practical platform exercise.</h2><p>The backend learning track uses FastAPI&apos;s Full Stack Template. The frontend track uses Module Federation Examples. Both are inputs for a small telemetry platform—not a claim of production experience.</p><div className="repo-links"><a href="https://github.com/fastapi/full-stack-fastapi-template" target="_blank" rel="noreferrer">FastAPI template ↗</a><a href="https://github.com/module-federation/module-federation-examples" target="_blank" rel="noreferrer">Module Federation examples ↗</a></div></div>
       <ol className="path">{learningPath.map(([number, title, description]) => <li key={number}><span>{number}</span><div><h3>{title}</h3><p>{description}</p></div></li>)}</ol>
     </section>
-    <section className="contact" id="contact"><p className="eyebrow">Let&apos;s connect</p><h2>Open to a thoughtful engineering conversation.</h2><a className="button primary" href="mailto:alfianrahman.dev@gmail.com">Send an email</a></section>
+    <section className="contact" id="contact"><p className="eyebrow">Let&apos;s connect</p><h2>Open to a thoughtful engineering conversation.</h2><a className="button primary" href="https://github.com/alfianrahmn" target="_blank" rel="noreferrer">View GitHub profile ↗</a></section>
     <footer><span>© {new Date().getFullYear()} Alfian Rahman</span><span>Next.js static export · GitHub Pages</span></footer>
   </main>;
 }
